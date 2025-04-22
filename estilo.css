@@ -1,0 +1,91 @@
+html {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
+body {
+  background-color: #eeeeee;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 80%;
+  margin: 0;
+  padding: 0;
+}
+
+#foto_perfil {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 2px 5px 5px black;
+  margin-top: 55px;
+}
+
+.botao {
+  height: 50px;
+}
+
+.pai_cabecalho {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.conteudo {
+  min-height: 400px;
+}
+.conteudo p,
+b {
+  text-align: left;
+  padding: 0 15px 0 15px;
+}
+
+.conteudo h3 {
+  padding: 5px 15px 5px 65px;
+  color: #ddd;
+  background: #eeeeee;
+  background: linear-gradient(
+    40deg,
+    rgba(238, 238, 238, 1) 1%,
+    rgba(33, 33, 33, 1) 6%,
+    rgba(238, 238, 238, 1) 60%
+  );
+}
+
+li {
+  list-style-type: "❤️";
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+#menu_superior {
+  width: 100%; /*largura*/
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 5px;
+  text-align: right;
+  margin-bottom: 20px;
+  box-shadow: 0 5px 5px -5px black;
+  position: fixed;
+  top: 0;
+  background-color: #eeeeee;
+}
+
+#menu_superior a {
+  color: black;
+  text-decoration: none;
+  padding: 5px 15px 2px 15px;
+}
+
+#menu_superior a:hover {
+  color: blue;
+}
+
+#menu_superior a:active {
+  color: red;
+}
+
+#menu_superior a:visited {
+  background-color: green;
+}
